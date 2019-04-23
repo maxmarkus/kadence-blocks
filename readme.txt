@@ -1,4 +1,5 @@
 === Kadence Blocks – Gutenberg Page Builder Toolkit ===
+
 Contributors: britner
 Tags: gutenberg, blocks, page builder, google fonts, dual buttons, svg icons, editor width,
 Donate link: https://www.kadencethemes.com/about-us/
@@ -15,6 +16,7 @@ Custom Blocks for for Gutenberg to help extend the editing capablitlies.
 This plugin adds custom blocks to extend Gutenberg's editing capabilities to better build custom layouts and make Gutenberg able to do more closely what popular page builders can do. With the [Kadence Row Layout Block](https://www.kadenceblocks.com/row-layout-block/) you can better control columns for different screen sizes plus it gives you full row editing tools like padding, backgrounds, overlays with gradients, vertical align and much more.
 
 = Try Kadence Blocks =
+
 [Demo Testing](http://demo.kadencethemes.com/kadence-blocks/)
 
 = Custom Blocks Include =
@@ -30,6 +32,7 @@ This plugin adds custom blocks to extend Gutenberg's editing capabilities to bet
 https://www.youtube.com/watch?v=pSrCYcOeuMc
 
 = Key Block Features =
+
 The Row Layout block can have 1-6 columns and any other blocks can be nested inside. So as a single column block it's a powerful wrapper because you can create very custom backgrounds and define padding and margin both for desktop and mobile layouts.
 
 The Advanced Heading block provides full control for your heading, including font family (all google fonts), font weight, font style, font size (with tablet and mobile control), line height, color, letter spacing, alignment and margin.
@@ -45,11 +48,13 @@ The Spacer / Divider block allows you to optionally show a divider inside an are
 The Info Box Block is a box link containing an icon or image and optionally a title, description and learn more text. Configure padding, fonts, backgrounds, borders and style static and hover colors even show a box shadow.
 
 = Editor Max Width =
+
 One of the challenges with creating custom column and row layouts in Gutenberg is the width of the editor in your admin. By default, Gutenberg uses a 650px max width for the content editor. When adding text to a sidebar template this works great, as the max width in the editor is comparable to the content width when using a sidebar. However, for content going into pages where you don’t have a sidebar, it is a poor representation of what you are actually going to get on the front end of your site. Not to mention it makes for a cramped space to work in if you are trying to manage a row with three columns.
 
 In an effort to create an easier way to use Gutenberg in a more “page building experience” we created a simple way that allows you to change the default max width for pages and for posts as well as individually change that through a page by page setting. 
 
 = Less Margin = 
+
 Another challenge with Gutenberg is not having an exact representation of how your content is going to look on the font end of your site. Gutenberg does not quite give you this becuase it's not a front end editor and therefor doesn't include all the css that your theme and other plugins add to style your content. Much of this can be reconciled as theme authors add support for Gutenberg and add key styling from the theme into Gutenberg. We've already done this with our themes and it greatly improves the editing experience.
 
 But Gutenberg adds in spacing between blocks that simply doesn’t exist on the front end. This spacing can negatively effect the way you design your content because it doesn't represent how your page will look on the font end of your site. This is especially true as you start to use Gutenberg for more advanced page building. 
